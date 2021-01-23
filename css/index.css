@@ -41,6 +41,7 @@ button {
   -webkit-transition: all 0.25s ease-in-out 0s;
   transition: all 0.25s ease-in-out 0s;
   cursor: pointer;
+
 }
 button:hover{
   background: grey;
@@ -106,10 +107,11 @@ input[type="color"]::-webkit-color-swatch {
   height: 4rem;
   width: 4rem;
   text-align:center;
-  padding:20px;
+
   color:white;
+  margin:3px;
   border:none;
-  margin: 0 1rem;
+
   font-size:1rem;
   font-family: 'Oswald', sans-serif;
   color:black;
