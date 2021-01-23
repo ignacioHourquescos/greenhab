@@ -125,3 +125,12 @@ crearGrillaPixeles();
 
 $('body').mousedown(function() { clickApretado = true; });
 $('body').mouseup(function() { clickApretado = false; });
+
+$(document).ready(function() {
+  var overlay = $('#overlay');
+  overlay.on('click', function (e) {
+      overlay
+          .hide()
+          .off();
+  });
+});
