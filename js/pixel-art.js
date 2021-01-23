@@ -58,11 +58,15 @@ function crearPaletaDeColores()
   }
 } 
 
-function pintar() 
-{
-  // Agregar if para que no pinte cuando no se seleccione ningun color
+// Agregar if para que no pinte cuando no se seleccione ningun color
+function pintar() {
   var selectedColor = $('#indicador-de-color').css('background-color');
   $(this).css('background-color', selectedColor);
+  $(this).css('background-image', 'url(lechuga.png)');
+  $(this).css('background-size', '100% 100%');
+  $(this).css('background-repeat', 'no-repeat');
+  $(this).css('background-blend-mode', 'lighten');
+
 }
 
 function crearGrillaPixeles()
